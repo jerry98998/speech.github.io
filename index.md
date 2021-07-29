@@ -22,7 +22,7 @@ You can find a demo [here](https://withoutdoubt.github.io/YWW.github.io/index.ht
 
 ## 3.Parallel CycleGAN with Dual Adversarial Loss for Bone-Conducted Speech Enhancement
 
-***Qing Pan, Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021 · ***
+***Qing Pan, Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021***
 
 **Abstract：** Compared with air-conducted speech, bone-conducted speech has the unique advantage of shielding background noise. Enhancement of bone-conducted speech helps to improve its quality and intelligibility. In this paper, a novel Parallel CycleGAN with dual adversarial loss is proposed for bone-conducted speech enhancement. The proposed method uses an adversarial loss and a cyclic consistent loss simultaneously to learn forward and cyclic mapping, in which the adversarial loss is divided into the classification adversarial loss and the defect adversarial loss to consolidate the forward mapping. Compared with conventional baseline methods, it can learn feature mapping between bone-conducted speech and target speech without additional air-conducted speech assistance. Moreover, the proposed method also avoids the over-smooth problem which is occurred commonly in conventional statistical based models. Experimental results show that the proposed method outperforms baseline methods such as CycleGAN, GMM, and BLSTM.
 
