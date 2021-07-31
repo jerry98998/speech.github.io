@@ -42,7 +42,7 @@
 
 ## 5.Whisper to Normal Speech Conversion Using Sequence-to-Sequence Mapping Model with Auditory Attention
 
-***ZHOU JIAN1, HU YUTING, LIAN HAILUN, WANG HUABIN,TAO LIANG, Hon Keung Kwan · Published 2019 · IEEE Access***
+***LIAN HAILUN, HU YUTING, YU WEIWEI, ZHOU JIAN, ZHENG WEN MING · Published 2019 · IEEE Access***
 
 **Abstract：** Whispering is a special pronunciation style in which the vocal cords do not vibrate. Compared with voiced speech, whispering is noise-like because of the lack of a fundamental frequency. The energy of whispered speech is approximately 20 dB lower than that of voiced speech. Converting whispering into normal speech is an effective way to improve speech quality and/or intelligibility. In this paper, we propose a whisper-to-normal speech conversion method based on a sequence-to-sequence framework combined with an auditory attention mechanism. The proposed method does not require time aligning before conversion training, which makes it more applicable to real scenarios. In addition, the fundamental frequency is estimated from the mel frequency cepstral coefficient estimated by the proposed sequence-to-sequence framework. The voiced speech converted by the proposed method has appropriate length, which is determined adaptively by the proposed sequence-to-sequence model according to the source whispered speech. Experimental results show that the proposed sequence-to-sequence whisper-tonormal speech conversion method outperforms conventional DTW-based methods.
 
@@ -50,5 +50,13 @@
 
 >You can find a demo [here](https://jerry98998.github.io/lhl/)
 
+## 5.Multimodal Voice Conversion Using a Deep Convolutional Neural Network in an Adverse Environment
 
+***ZHOU JIAN, HU YUTING, LIAN HAILUN, WANG HUABIN,TAO LIANG, Hon Keung Kwan · Published 2019 · IEEE Access***
+
+**Abstract：** This paper presents a voice conversion (VC) technique under noisy environments. Typically, VC methods use only audio information for conversion in a noiseless environment. However, existing conversion methods do not always achieve satisfactory results in an adverse acoustic environment. To solve this problem, we propose a multimodal voice conversion model based on a deep convolutional neural network (MDCNN) built by combining two convolutional neural networks (CNN) and a deep neural network (DNN) for VC under noisy environments. In the MDCNN, both the acoustic and visual information are incorporated into the voice conversion to improve its robustness in adverse acoustic conditions. The two CNNs are designed to extract acoustic and visual features, and the DNN is designed to capture the nonlinear mapping relation of source speech and target speech. Experimental results indicate that the proposed MDCNN outperforms two existing approaches in noisy environments.
+
+>You can get paper [here](https://ieeexplore.ieee.org/document/8913498)
+
+>You can find a demo [here](https://jerry98998.github.io/hyt/)
 
