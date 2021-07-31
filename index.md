@@ -1,12 +1,12 @@
 # Paper And Demo
 
-## 1.联合时频域扩张卷积的耳语音向正常音转换方法及其装置
+## 1.An End to End Method of Whisper Enhancement
 
-***Jian Zhou, Yan Huang · Published 2020 · Patent***
+***Yan Huang; HaiLun Lian; Jian Zhou; HuaBin Wang; Liang Tao · Published 2019 ·  2019 IEEE 2nd International Conference on Information Communication and Signal Processing (ICICSP)***
 
-**Abstract：** 本发明公开了一种联合时频域扩张卷积的耳语音向正常音转换方法及其装置.该方法包括:提取耳语音的谱包络,正常音的谱包络,非周期成分以及基频;将谱包络对齐,并转化为第一梅尔倒谱系数特征,第二梅尔倒谱系数特征;训练出谱包络转换模型,非周期转换模型以及基频转换模型;提取耳语的谱包络,并转化为第三梅尔倒谱系数特征;将第三梅尔倒谱系数特征进行转换,获得预测梅尔倒谱系数特征,预测非周期成分以及预测基频;将预测梅尔倒谱系数特征还原成预测谱包络;将预测谱包络,预测非周期成分以及预测基频合成为预测语音.本发明有效捕获语音时频域局部特征,可以显著降低模型参数量,提高语音转换速率,提升语音质量,语音可懂度以及连续性.
+**Abstract：** In this paper, we propose a method of enhancing whisper, using whisper without any pretreatment combined with Wavenet. Our method is end-to-end, that is, inputing noised whisper to get clean whisper. The input to our method is the original whisper without any processing, reducing the loss of features caused by other operations. We use speech denoising Wavenet to enhance whisper. Wavenet can not only enhance whisper well, but also tackle the issue of intelligibility. Specifically, use symmetric dilated convolution to obtain noisy speech context, help the model to enhance the speech for better denoising effect. Experimental results show that the enchanced whisper gains better performance both in the aspect of speech quality and intelligibility.
 
->You can get paper [here](https://xueshu.baidu.com/usercenter/paper/show?paperid=1g6m06j0du670020j34j0p70q5456038&site=xueshu_se)
+>You can get paper [here](https://www.researchgate.net/publication/338651659_An_End_to_End_Method_of_Whisper_Enhancement)
 
 >You can find a demo [here](https://meigm.github.io/DCNNdemo/dcnn.html)
 
