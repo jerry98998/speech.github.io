@@ -1,6 +1,6 @@
 # Paper And Demo
 
-## 1.Parallel CycleGAN with Dual Adversarial Loss for Bone-Conducted Speech Enhancement
+## 1.CycleGAN with Dual Adversarial Loss for Bone-Conducted Speech Enhancement
 
 ***Qing Pan, Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021***
 
@@ -14,7 +14,7 @@
 
 ***Teng Gao, Qing Pan, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021*** 
 
-**Abstract：** Whispered speech is a special way of pronunciation without using vocal cord vibration. A whispered speech does not contain a fundamental frequency, and its energy is about 20dB lower than that of a normal speech. Converting a whispered speech into a normal speech can improve speech quality and intelligibility. In this paper, a novel attention-guided generative adversarial network model incorporating an autoencoder, a Siamese neural network, and an identity mapping loss function for whisper to normal speech conversion (AGAN-W2SC) is proposed. The proposed method avoids the challenge of estimating the fundamental frequency of the normal voiced speech converted from a whispered speech. Specifically, the proposed model is more amendable to practical applications because it does not need to align speech features for training. Experimental results demonstrate that the proposed AGAN-W2SC can obtain improved speech quality and speech intelligibility compared with traditional methods based on dynamic time warping.
+**Abstract：** Compared with air-conducted speech, bone-conducted speech has the unique advantage of shielding background noise. Enhancement of bone-conducted speech helps to improve its quality and intelligibility. In this paper, a novel CycleGAN with dual adversarial loss (CycleGAN-DAL) is proposed for bone-conducted speech enhancement. The proposed method uses the adversarial loss and the cycle-consistent loss simultaneously to learn forward and cyclic mapping, in which the adversarial loss is replaced with the classification adversarial loss and the defect adversarial loss to consolidate the forward mapping. Compared with conventional baseline methods, it can learn feature mapping between bone-conducted speech and target speech without additional air-conducted speech assistance. Moreover, the proposed method also avoids the over-smooth problem which is occurred commonly in conventional statistical based models. Experimental results show that the proposed method outperforms baseline methods such as CycleGAN, GMM, and BLSTM.
 
 >Paper is not available for now
 
@@ -52,7 +52,7 @@
 
 ## 6.Multimodal Voice Conversion Using a Deep Convolutional Neural Network in an Adverse Environment
 
-***ZHOU JIAN, HU YUTING, LIAN HAILUN, WANG HUABIN,TAO LIANG, Hon Keung Kwan · Published 2019 · IEEE Access***
+***ZHOU JIAN<sup>1</sup>, HU YUTING<sup>1</sup>, LIAN HAILUN<sup>1</sup>, WANG HUABIN<sup>1</sup>,TAO LIANG<sup>1</sup>, Hon Keung Kwan<sup>2</sup> · Published 2019 · IEEE Access***
 
 **Abstract：** This paper presents a voice conversion (VC) technique under noisy environments. Typically, VC methods use only audio information for conversion in a noiseless environment. However, existing conversion methods do not always achieve satisfactory results in an adverse acoustic environment. To solve this problem, we propose a multimodal voice conversion model based on a deep convolutional neural network (MDCNN) built by combining two convolutional neural networks (CNN) and a deep neural network (DNN) for VC under noisy environments. In the MDCNN, both the acoustic and visual information are incorporated into the voice conversion to improve its robustness in adverse acoustic conditions. The two CNNs are designed to extract acoustic and visual features, and the DNN is designed to capture the nonlinear mapping relation of source speech and target speech. Experimental results indicate that the proposed MDCNN outperforms two existing approaches in noisy environments.
 
