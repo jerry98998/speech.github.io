@@ -65,9 +65,9 @@
 
 ## 7.MULTISTAGE MODEL FOR ROBUST FACE ALIGNMENT USING DEEP NEURAL NETWORKS
 
-***Huabin Wang<sup>1</sup>, Rui Cheng<sup>1</sup>, Jian Zhou<sup>1</sup>, Liang Tao<sup>1</sup>, Hon Keung Kwan<sup>2</sup> · Published 2020 · Computer Vision and Pattern Recognition ***
+***Huabin Wang<sup>1</sup>, Rui Cheng<sup>1</sup>, Jian Zhou<sup>1</sup>, Liang Tao<sup>1</sup>, Hon Keung Kwan<sup>2</sup> · Published 2020 · Computer Vision and Pattern Recognition***
 
-*<sup>1</sup>Anhui Provincial Key Laboratory of Multimodal Cognitive Computation, School of Computer Science and Technology, Anhui University, Hefei, China*
+*<sup>1</sup>Anhui Provincial Key Laboratory of Multimodal Cognitive Computation, School of Computer Science and Technology, Anhui University, Hefei, China*  
 *<sup>2</sup>Department of Electrical and Computer Engineering, University of Windsor, Windsor, ON N9B 3P4, Canada*
 
 **Abstract：** An ability to generalize unconstrained conditions such as severe occlusions and large pose variations remains a challenging goal to achieve in face alignment. In this demo, a multistage model based on deep neural networks is presented which takes advantages of spatial transformer networks, hourglass networks and exemplar-based shape constraints. First, a spatial transformer - generative adversarial network which consists of convolutional layers and residual units is utilized to solve the initialization issues caused by face detectors, such as rotation and scale variations, to obtain improved face bounding boxes for face alignment. Then, stacked hourglass network is employed to obtain preliminary locations of landmarks as well as their corresponding scores. In addition, an exemplar-based shape dictionary is designed to determine landmarks with low scores based on those with high scores. By incorporating face shape constraints, misaligned landmarks caused by occlusions or cluttered backgrounds can be considerably improved. Extensive experiments based on challenging benchmark datasets are performed to demonstrate the superior performance of the proposed method over other state-of-the-art methods.
