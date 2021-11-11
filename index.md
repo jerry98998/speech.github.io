@@ -2,7 +2,7 @@
 
 ## 1.CycleGAN with Dual Adversarial Loss for Bone-Conducted Speech Enhancement
 
-***Qing Pan, Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021 · Sound***
+***Qing Pan, Teng Gao, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021***
 
 **Abstract：** Compared with air-conducted speech, bone-conducted speech has the unique advantage of shielding background noise. Enhancement of bone-conducted speech helps to improve its quality and intelligibility. In this paper, a novel Parallel CycleGAN with dual adversarial loss is proposed for bone-conducted speech enhancement. The proposed method uses an adversarial loss and a cyclic consistent loss simultaneously to learn forward and cyclic mapping, in which the adversarial loss is divided into the classification adversarial loss and the defect adversarial loss to consolidate the forward mapping. Compared with conventional baseline methods, it can learn feature mapping between bone-conducted speech and target speech without additional air-conducted speech assistance. Moreover, the proposed method also avoids the over-smooth problem which is occurred commonly in conventional statistical based models. Experimental results show that the proposed method outperforms baseline methods such as CycleGAN, GMM, and BLSTM.
 
@@ -12,7 +12,7 @@
 
 ## 2.Attention-Guided Generative Adversarial Network for Whisper to Normal Speech Conversion
 
-***Teng Gao, Qing Pan, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021 · Sound*** 
+***Teng Gao, Qing Pan, Jian Zhou, Huabin Wang, Liang Tao, and Hon Keung Kwan · Published 2021*** 
 
 **Abstract：** Compared with air-conducted speech, bone-conducted speech has the unique advantage of shielding background noise. Enhancement of bone-conducted speech helps to improve its quality and intelligibility. In this paper, a novel CycleGAN with dual adversarial loss (CycleGAN-DAL) is proposed for bone-conducted speech enhancement. The proposed method uses the adversarial loss and the cycle-consistent loss simultaneously to learn forward and cyclic mapping, in which the adversarial loss is replaced with the classification adversarial loss and the defect adversarial loss to consolidate the forward mapping. Compared with conventional baseline methods, it can learn feature mapping between bone-conducted speech and target speech without additional air-conducted speech assistance. Moreover, the proposed method also avoids the over-smooth problem which is occurred commonly in conventional statistical based models. Experimental results show that the proposed method outperforms baseline methods such as CycleGAN, GMM, and BLSTM.
 
@@ -94,7 +94,7 @@
 
 ## 10.L1/2稀疏约束卷积非负矩阵分解的单通道语音增强方法
 
-***路成，田猛，周健，王华彬，陶亮 · 《声学学报》2017年 第3期 ***
+***路成，田猛，周健，王华彬，陶亮 · 《声学学报》2017年 第3期***
 
 **Abstract：** 为了刻画语音信号帧间相关性和使用更少的语音基表示语音特征,提出一种采用L_(1/2)稀疏约束的卷积非负矩阵分解方法进行单通道语音增强。首先,进行噪声学习得到噪声基;然后,以噪声基为先验信息结合L_(1/2)稀疏约束卷积非负矩阵分解方法学习含噪语音中的语音基成分;最后,利用学习到的语音基和系数重建出干净语音信号。在不同噪声环境下进行的实验结果表明,本文方法优于采用L_1稀疏约束的卷积非负矩阵方法及传统的统计语音增强方法。
 
@@ -103,7 +103,7 @@
 
 ## 11.正交投影非负矩阵的交替方向乘子分解方法
 
-***王华彬 路成 周健 陶亮 施汉琴 · 《中国图象图形学报》2017年 第4期 ***
+***王华彬 路成 周健 陶亮 施汉琴 · 《中国图象图形学报》2017年 第4期***
 
 **Abstract：** 目的目前非负矩阵分解一般使用乘性规则进行更新,乘性更新规则虽实现简单,但更新时收敛较慢,而且容易陷入局部最优解。当数据规模较大时,乘性规则的时效性很低,难以应用于一些实时性较强的问题中。针对乘性更新规则的这些缺点,提出一种使用交替方向乘子求解正交投影非负矩阵分解的方法。方法首先,基于正交投影非负矩阵的正交性和稀疏性特征,将原始的目标函数优化问题分解为各子问题的交替优化求解过程。通过引入辅助变量建立原目标函数的增广拉格朗日方程,完成对原问题的子问题等价表示;然后,对转换后方程的主变量和对偶变量进行交替优化求解,从而找到原问题最优解。结果不同规模矩阵分解仿真实验结果表明,与乘性更新规则相比,本文所提方法在收敛速度和精度上具有明显优势,特别是在矩阵规模很大时,收敛速度明显优于乘性规则。同时,将本文方法应用于目标跟踪问题中,提出一种基于交替方向乘子方法的模版更新策略,并与乘性规则以及其他3种经典目标跟踪算法进行比较。本文方法在目标跟踪效果上与基于乘性更新规则方法相当,且优于其他3种方法,重叠率约0.73,且帧处理速度约是乘性规则的3.8倍。结论本文方法在数据规模较大时,处理速度明显优于乘性规则。在目标跟踪应用中,因其分解过程中的稀疏性和正交性,与常用跟踪算法相比能较好地应对视频场景中的遮挡、尺度变化及光照变化等干扰,其跟踪性能更加稳定。
 
@@ -120,7 +120,7 @@
 
 ## 13.A Sparse Analysis Window for Discrete Gabor Transform
 
-***Jian Zhou，Xianyong Fang，Liang Tao · 2017 · Circuits Systems and Signal Processing ***
+***Jian Zhou，Xianyong Fang，Liang Tao · 2017 · Circuits Systems and Signal Processing***
 
 **Abstract：** Here, we analyze sparse analysis windows for complex-valued and real-valued discrete Gabor transforms. A number of theories presented in this study indicatethat the existence and uniqueness of a sparse analysis window for a given synthesiswindow depend to a great extent on the sparsity of the synthesis window. Speciﬁcally,the upper and lower bounds on the analysis window sparsity are obtained for synthesiswindows of different sparsities and analyzed in detail. Particularly, if the sparsityof a given synthesis window with connected support is equal to the discrete Gabortransform time-shift parameter, the sparsest analysis window is unique. In addition,we propose an algorithm that searches for a sparse analysis window. Compared withexisting algorithms, a sparse analysis window with fewer nonzero elements and/orsmaller reconstruction errors can be obtained with the proposed algorithm. A sequenceof experimental results reveals its superior effectiveness. In addition, a better Gaborrepresentation with high concentration and time–frequency resolution is obtained withthe sparse analysis window.
 
@@ -145,7 +145,7 @@ Hon Keung Kwan · 2019 · ACCESS***
 
 ## 16.利用深度卷积神经网络将耳语转换为正常语音
 
-***连海伦，周健，胡雨婷，郑文明 · 2020 · 《声学学报》 ***
+***连海伦，周健，胡雨婷，郑文明 · 2020 · 《声学学报》***
 
 **Abstract：** 耳语是一种特殊发音方式,将耳语转换为正常语音是提升耳语质量和可懂度的关键方法.为了充分利用语音的频域和时域相关性实现耳语转换,提出了使用深度卷积神经网络(Deep Convolutional Neural Networks,DCNN)将耳语转换为正常语音.它的卷积层用来提取连续帧语音谱包络之间的频域与时域的相关特征,而全连接层用来拟合耳语在卷积层提取的特征和对应正常语音之间的映射关系.实验结果表明与深度神经网络(Deep Neural Networks,DNN)模型相比,DCNN模型获得的转换后语音的梅尔倒谱失真度(Cepstral Distance,CD)降低了4.64%,而语音质量感知评价(Perceptual Evaluation of Speech Quality,PESQ),短时客观可懂度(Short-Time Objective Intelligibility,STOI)与平均主观意见分(Mean Opinion Score,MOS)分别提高了5.41%,5.77%,9.68%.
 
@@ -182,7 +182,7 @@ Hon Keung Kwan · 2019 · ACCESS***
 >You can get paper [here](https://xueshu.baidu.com/usercenter/paper/show?paperid=150m0490r07s02s0y1760rp0x1083772&site=xueshu_se)
 
 ## 21.联合模板先验概率和稀疏表示的目标跟踪
-***田猛；路成；周健；施汉琴；陶亮 · 《中国图像图形学报》2016年11期 ***
+***田猛；路成；周健；施汉琴；陶亮 · 《中国图像图形学报》2016年11期***
 
 **Abstract：** 目的虽然基于稀疏表示的目标跟踪方法表现出了良好的跟踪效果,但仍然无法彻底解决噪声,旋转,遮挡,运动模糊,光照和姿态变化等复杂背景下的目标跟踪问题.针对遮挡,旋转,姿态变化和运动模糊问题,提出一种在粒子滤波框架内,基于稀疏表示和先验概率相结合的目标跟踪方法.方法通过先验概率衡量目标模板的重要性,并将其引入到正则化模型中,作为模板更新的主要依据,从而获得一种新的候选目标稀疏表示模型.结果在多个测试视频序列上,与多种流行算法相比,该算法可以达到更好的跟踪性能.在5个经典测试视频下的平均中心误差为6.77像素,平均跟踪成功率为97%,均优于其他算法.结论实验结果表明,在各种含有遮挡,旋转,姿态变化和运动模糊的视频中,该算法可以稳定可靠地跟踪目标,适用于视频监控复杂场景下的目标跟踪.
 
